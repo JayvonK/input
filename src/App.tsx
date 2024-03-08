@@ -15,6 +15,12 @@ function App() {
         <input />
         <Button variant="dark">Save Name</Button>
       </Col>
+
+      <Col lg={12} className='d-flex justify-content-center'>
+        <ul>
+          <li></li>
+        </ul>
+      </Col>
     </ Row>
   );
 }
