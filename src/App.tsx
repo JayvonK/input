@@ -47,7 +47,13 @@ function App() {
 
       <Col lg={12} className="d-flex justify-content-center">
         <ul>
-          <li></li>
+          {/* .map takes in more than one parameter 1st is the value of the index, second is the index position */}
+          {
+            // when mapping through arrays with jsx we need to have a key
+            nameArray.map((person, idx) => (
+              <li key={idx}>{person.name}</li>
+            ))
+          }
         </ul>
       </Col>
       <Button onClick={() => setCount(count + 1)}>+</Button>
