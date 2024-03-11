@@ -16,6 +16,7 @@ function App() {
   // }
 
   const [name, setName] = useState<string>("");
+  //setting nameArray to the type of an object array
   const [nameArray, setNameArray] = useState<Iperson[]>([]);
   const [count, setCount] = useState<number>(0);
 
